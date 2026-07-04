@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Deterministic-script local artifacts (sample inputs/outputs — never commit real ad data)
+skills/*/scripts/*.sample.json
+runlog/
+plans/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
